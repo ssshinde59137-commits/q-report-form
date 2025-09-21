@@ -252,8 +252,8 @@
         </div>
 
         <div class="form-container">
-            <!-- MODIFIED: Added Formspree action and method -->
-            <form id="qualityReportForm" action="https://formspree.io/f/https://formspree.io/f/mdklqjre" method="POST">
+            <!-- FIXED: Corrected Formspree action URL -->
+            <form id="qualityReportForm" action="https://formspree.io/f/mdklqjre" method="POST">
                 <!-- Customer Information Section -->
                 <div class="form-section">
                     <h3>📋 Customer Information</h3>
@@ -417,10 +417,9 @@
                     </div>
                 </div>
 
-                <!-- ADDED: Hidden fields for workflow integration -->
+                <!-- Hidden fields for Formspree -->
                 <input type="hidden" name="_subject" value="New Quality Report Request">
-                <input type="hidden" name="_cc" value="quality@yourcompany.com">
-                <input type="hidden" name="_next" value="https://yoursite.com/thank-you.html">
+                <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
 
                 <div class="info-panel">
                     <h4>📌 Important Information</h4>
